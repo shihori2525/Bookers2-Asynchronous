@@ -23,8 +23,3 @@
 
   <% end %>
 </table>
-
-<%= form_with(model:[book, book_comment], remote: true) do |f| %>
-  <%= f.text_area :comment %>
-  <%= f.submit "送信" %>
-<% end %>
